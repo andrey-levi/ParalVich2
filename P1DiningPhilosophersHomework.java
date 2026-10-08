@@ -113,3 +113,8 @@ public class P1DiningPhilosophersHomework {
         System.out.println("OK: every philosopher ate " + mealsPerPhilosopher + " times, no deadlock detected");
     }
 }
+
+/*
+ * 1. Нет, если все потоки или процессы захватывают ресурсы строго в одном и том же глобальном порядке - deadlock невозможен.
+ * 2. Да, deadlock организовать можно, так как порядок освобождения/отдачи ресурсов не влияет на появление тупика.
+ */
